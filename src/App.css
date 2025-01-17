@@ -17,7 +17,7 @@ height: 100px;
 
 .image-container {
   padding-top: 100px;
-  margin-left: 400px;
+  margin-left: 380px;
   position: relative;
   display: inline-block;
   cursor: crosshair;
@@ -181,7 +181,7 @@ body {
   padding: 0px;
   margin-left: 40px;
   border-bottom: 6px solid rgb(76, 28, 95);
-  gap: 950px;
+  gap: 820px;
   h1{
     color: #41204d;
     font-size: 30px;
