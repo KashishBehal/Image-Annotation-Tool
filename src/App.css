@@ -1,0 +1,245 @@
+
+*{
+  background-color: rgb(161, 150, 191);
+}.app {
+  h1{
+    font-size: 60px;
+    color:rgb(237, 230, 230);
+  }
+height: 100px;
+  padding-top: 0px;
+  text-align: center;
+  margin: 0px;
+  
+  color: rgb(12, 11, 11);
+
+}
+
+.image-container {
+  padding-top: 100px;
+  margin-left: 600px;
+  position: relative;
+  display: inline-block;
+  cursor: crosshair;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 700px;
+  padding: 60px;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.tooltip:hover .tooltip-icons {
+  visibility: visible;
+}
+
+.tooltip-icons {
+  visibility: hidden;
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.tooltip-icons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: crosshair;
+}
+
+.tooltip-dot {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.tooltip-text {
+  display: none;
+  position: absolute;
+  /* width: 30px; */
+  top: -25px;
+  background-color: rgb(180, 125, 190);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.tooltip:hover .tooltip-text {
+  display: block;
+}
+
+
+.tooltip {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.tooltip-dot {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.tooltip-content {
+  display: none;
+  position: absolute;
+  top: 15px;
+  background-color: rgb(174, 88, 156);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  white-space: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tooltip:hover .tooltip-content {
+  display: flex;
+  gap: 5px;
+}
+
+.a {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.aa{
+  background-color: white;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  max-width: 64rem;
+  margin: 2rem auto;
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  color: #1e293b;
+}
+
+.heading .highlight {
+  position: relative;
+  white-space: nowrap;
+  color: #41204d; 
+}
+
+
+.heading .highlight-text {
+  position: relative;
+}
+.heading .highlight-svg {
+  position: absolute;
+  height: 20px;
+  width: 100%;
+  fill: aliceblue;
+  top: 100%;
+  
+
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin-left: 40px;
+  border-bottom: 6px solid rgb(76, 28, 95);
+  gap: 1250px;
+  h1{
+    color: #41204d;
+    font-size: 30px;
+  }
+  div{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    h1{
+      color: #41204d;
+    }
+  }
+}
+.ab{
+  padding: 60px;
+}
+.slidingTextContainer{
+  top: 900px;
+  z-index: -1;
+  position: absolute;
+  font-size: 20vh;
+  bottom: -120px;
+  white-space: nowrap;
+  color: rgba(128, 69, 163, 0.332);
+  width: 50%;
+  font-weight: bold;
+}
+.footer{
+  position:relative;
+  left: 0;
+  bottom: -500px;
+  width: 100%;
+  border-top: 6px solid rgb(84, 31, 97);
+  height: 50px;
+  font-size: 25px;
+  align-items: center;
+  color: rgb(83, 19, 63);
+  text-align: center;
+  padding: 10px 0;
+  
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 5px;
+  background-color: white;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+.edit-icon {
+  filter: hue-rotate(180deg); /* Optional: Customize edit icon styling */
+}
+
+.delete-icon {
+  filter: hue-rotate(0deg); /* Optional: Customize delete icon styling */
+}
